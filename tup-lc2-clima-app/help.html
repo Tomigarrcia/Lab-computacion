@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima App</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="icon" type="image/png" href="css/img/icono.png">
+</head>
+<body>
+    <header>
+        <h1>
+            <span>Clima App</span>
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Mi App</a></li>
+                <li><a href="add-city.html">Agregar Ciudad</a></li>
+                <li class="current-page"><a href="help.html">Ayuda</a></li>
+            </ul>
+        </nav>
+    </header>
+        <!-- Contenido principal de la página -->
+    <main>
+        <h2>Ayuda Clima App v.1.0</h2>
+        <p>Esta App te permite consultar el clima de una ciudad en particular utilizando la API de <a href=“https://openweathermap.org/api” target="_blank">OpenWeatherMap.</a></p>
+        <p>Para poder consultar el clima, primero debera <a href="add-city.html">Agregar una ciudad</a> y luego seleccioanra la ciudad en cuestion desde la pagina <a href="index.html">Clima</a>.</p>
+        <section>
+            <form action="">
+                <label for="Nombre">Nombre: </label>
+                <input type="text" name="Nombre">
+                <br>
+                <label for="Email">Email: </label>
+                <input type="email" name="Email">
+                <br>
+                <label for="Texto">Mensaje: </label>
+                <textarea name="Texto" cols="30" rows="10"></textarea>
+                <br>
+                <button type="reset">Limpiar</button>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>
+            Desarrollado con ♥ - LC2
+        </p>
+    </footer>       
+</body>
+</html>
