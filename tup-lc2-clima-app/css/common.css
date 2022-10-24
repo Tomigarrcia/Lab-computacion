@@ -34,8 +34,16 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    background: var(--color-theme);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom: 2px solid #5df2d6;
+    background-image: linear-gradient(to right, #00594c , #04957d);
 }
+
+header h1 {
+    padding: 5px 0;
+}
+
 nav > ul {
     display: flex;
     justify-content: space-between;
@@ -60,6 +68,8 @@ nav li.current-page a {
     color: var(--color-theme);
     background-color: var(--color-active);
     pointer-events: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 main {
@@ -105,6 +115,8 @@ footer {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
+    background-image: linear-gradient(to right, #00594c , #04957d);
+    border-top: 1px solid #5df2d6;
 }
 
 footer p {

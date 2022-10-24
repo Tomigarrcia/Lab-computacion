@@ -7,10 +7,12 @@
     <title>Clima App</title>
     <link rel="stylesheet" href="css/common.css">
     <link rel="icon" type="image/png" href="css/img/icono.png">
+    <link rel="stylesheet" href="css/pages/help.css">
 </head>
 <body>
     <header>
         <h1>
+            <img src="css/img/icono.png" alt="logo">
             <span>Clima App</span>
         </h1>
         <nav>
@@ -29,18 +31,21 @@
         <section>
             <form action="">
                 <label for="Nombre">Nombre: </label>
-                <input type="text" name="Nombre">
+                <input class="campo" type="text" name="Nombre">
                 <br>
                 <label for="Email">Email: </label>
-                <input type="email" name="Email">
+                <input class="campo" type="email" name="Email">
                 <br>
                 <label for="Texto">Mensaje: </label>
-                <textarea name="Texto" cols="30" rows="10"></textarea>
+                <textarea class="campo" name="Texto" cols="30" rows="10"></textarea>
                 <br>
-                <button type="reset">Limpiar</button>
-                <button type="submit">Enviar</button>
+                <div>
+                    <button type="reset">Limpiar</button>
+                    <button type="submit">Enviar</button>
+                </div>
             </form>
         </section>
+        <p class="Error">Ingrese un <b>Email</b> válido</p>
     </main>
     <footer>
         <p>

@@ -1,0 +1,27 @@
+main section form button{
+    background-color: #00594c;
+    border-radius: 8px;
+    color: #ffffff;
+    padding: 10px;
+    border: 0px solid #000;
+    width: 100px;
+    cursor: pointer;
+}
+
+main section form select{
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+main section .card {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 30px;
+    box-shadow: 3px 3px 10px 3px #aaa;
+}
