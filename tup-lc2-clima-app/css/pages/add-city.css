@@ -34,6 +34,7 @@ main section form p {
     color: #fff;
     width: 500px;
     text-align: center;
+    display: none;
 }
 
 main section form .Exito {

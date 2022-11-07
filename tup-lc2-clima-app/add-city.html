@@ -29,11 +29,11 @@
         <section>
             <form action="">
                 <label for="Agregar">Ingrese la ciudad a agregar:</label>
-                <input type="text" name="Agregar" id="">
-                <button>Agregar</button>
-                <p class="Exito">Ciudad agregada con exito</p>
-                <p class="Error">Error: La ciudad ingresada no se encuentra en la API o se produjo un error al consultar</p>
-                <p class="Warning">La ciudad ingresada ya se encuentra almacenada</p>
+                <input type="text" style="text-transform:uppercase" name="Agregar" id="addcity">
+                <button id="button">Agregar</button>
+                <p class="Exito" id="Exito">Ciudad agregada con exito</p>
+                <p class="Error" id="Error">Error: La ciudad ingresada no se encuentra en la API o se produjo un error al consultar</p>
+                <p class="Warning" id="Warning">La ciudad ingresada ya se encuentra almacenada</p>
             </form>
         </section>
 
@@ -42,6 +42,7 @@
         <p>
             Desarrollado con ♥ - LC2
         </p>
-    </footer>       
+    </footer>
+    <script src="js/pages/add-city.js"></script>     
 </body>
 </html>
